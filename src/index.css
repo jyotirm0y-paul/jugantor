@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'SolaimanLipi';
+  src: local('SolaimanLipi'), url(./assets/fonts/SolaimanLipi_Bold_10-03-12.ttf) format('truetype');
+}
