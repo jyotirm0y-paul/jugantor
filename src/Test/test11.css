@@ -1,0 +1,60 @@
+@media all and (min-width: 769px) {
+  #desktop_navbar.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #desktop_navbar .navbar .has-megamenu {
+    position: static !important;
+  }
+
+  #desktop_navbar .navbar .megamenu {
+    left: 0;
+    top: 99%;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /*.navbar .nav-link{padding - top:1rem; padding-bottom:1rem;  }*/
+}
+
+
+@media only screen and (min-width: 992px) {
+  div.mobile-navbar {
+    display: none;
+  }
+}
+
+.nav-link.hide-menu {
+  padding: 0px 21px;
+  line-height: 50px;
+  color: #484848;
+  font-weight: 600;
+}
+
+#mobile_search {
+  color: #000;
+}
+
+#navcol-1 ul.nav-hover li a {
+  color: #484848;
+}
+
+div.megaMenuWrapper {
+  background: #f7f7f7;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.topMenuWrapper {
+  border-bottom: 1px solid #ccc;
+}
+
+.topMenuWrapper ul li a {
+  color: #484848;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 35px;
+}

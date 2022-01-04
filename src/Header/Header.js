@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <header class="mobile_header sticky-top mb-0 px-0 d-print-none">
         <div class="search-box bg-white">
-          <div class="input-group input-group-lg mb-0 pb-0 w-100 p-0 mb-0 bg-white rounded collapse container srch_form" id="collapseSearch">
+          <div class="input-group-lg mb-0 pb-0 w-100 p-0 mb-0 bg-white rounded collapse container srch_form" id="collapseSearch">
             <input type="text" name="q" class="form-control srch_keyword" placeholder="সার্চ করুন..." value=""/>
               <div class="input-group-append">
                 <button class="btn btn-sm btn-info" type="button"><i class="fas fa-search srch_btn"></i></button>
